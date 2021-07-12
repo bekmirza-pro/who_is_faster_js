@@ -1,0 +1,70 @@
+.button {
+  border: none;
+  font-size: 24px;
+  font-weight: 700;
+  text-align: center;
+  margin: auto;
+  background-color:rgb(245, 2, 75);
+  width: 60px;
+  height: 60px;
+}
+.button:hover {
+  display: inline-block;
+  background-color: rgb(49, 49, 255);
+}
+.remove-heading{
+  font-size: 32px;
+}
+.remove-list{
+  list-style: none;
+}
+.list-item{
+  padding: 15px;
+  border-radius: 5px;
+  border: 1px solid rgb(211, 211, 211);
+}
+.item-heading{
+  opacity: 0.8;
+}
+.imges-avangers{
+  width: 100%;
+  max-width: 800px;
+  height: 250px;
+  border-radius: 5px;
+}
+.avangers2{
+  margin-left: 10px;
+  /* padding: 0; */
+  /* border: 1px solid rgb(219, 219, 219); */
+  border-radius: 5px;
+}
+.avangers1{
+  margin-right: 10px;
+  /* padding: 0; */
+  /* border: 1px solid rgb(219, 219, 219); */
+  border-radius: 5px;
+}
+.list-number{
+  list-style: none;
+}
+@media only screen and (max-width: 1200px){
+  .box-avanger{
+    display: flex;
+    flex-direction: column;
+  }
+  .avangers1{
+    margin-bottom: 40px;
+  }
+  .btn{
+    padding: 4px 6px;
+  }
+}
+@media only screen and (max-width: 560px){
+  .avangers-box{
+    display: flex;
+    flex-direction: column;
+  }
+  .btn{
+    padding: 1px 3px;
+  }
+}
