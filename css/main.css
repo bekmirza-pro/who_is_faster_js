@@ -12,6 +12,23 @@
   display: inline-block;
   background-color: rgb(49, 49, 255);
 }
+.box{
+  width: 360px;
+  height: 280px;
+}
+@media only screen and (max-width: 1300px){
+  .goo-box{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin: 0 auto;
+        margin-left: 235px;
+  }
+  .goo-box-big{
+    display: flex;
+  }
+}
+
 .remove-heading{
   font-size: 32px;
 }
